@@ -1,0 +1,84 @@
+body{
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+}
+
+#box{
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  padding: 10%;
+  border-radius: 3%;
+  background-color: rgba(0,0,0,0.5)
+
+
+}
+
+.contenitore{
+  margin-top: -14%;
+  margin-left: -13%;
+}
+.contenitore-logo{
+  width: 1000px;
+  text-align: center;
+}
+
+.logo-img{
+  width: 300px;
+}
+
+.logo-txt{
+  color: #66FF00;
+}
+
+.bottoni{
+  text-align: center;
+  border-style: solid;
+  border-width: 13px;
+  border-color: #66FF00;
+  background-color: #66FF00;
+}
+
+.scooter-name{
+  font-size: 25px;
+}
+
+.scooter-info{
+  padding-top: 25px;
+  color: white;
+}
+
+.location{
+  padding-top: 5px;
+  font-size: 18px
+}
+
+/* Barre di carica degli scooter*/
+.battery-level-gino22{
+  width: 28%;
+  height: 25px;
+  color: #f5b453;
+  background-color: #f5b453;
+  border-radius: 5px;
+}
+
+.battery-level-mike24{
+  width: 60%;
+  height: 25px;
+  color: #1ec31e;
+  background-color: #1ec31e;
+  border-radius: 3px;
+}
+
+.battery-level-fede154{
+  width: 13%;
+  height: 25px;
+  color: #be4141;
+  background-color: #be4141;
+  border-radius: 3px;
+}
